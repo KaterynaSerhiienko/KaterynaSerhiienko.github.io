@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
 
-    <div>Hello world</div>
+    <head>
 
-</body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="wallpaper light-theme">
+                <header>
+                    <select class="city__select">
+                        <option class="kyiv" value="703448" id="kyiv" selected>kyiv</option>
+                        <option class="kharkiv" value="706483" id="kharkiv">kharkiv</option>
+                        <option class="lviv" value="702550" id="lviv">lviv</option>
+                    </select> 
+                </header>
+                <main>
+                    <div class="temp">
+                        <div class="temp__real"></div>
+                        <div class="temp__feel__txt">feels like</div>
+                        <div class="temp__feel"></div>
+                        
+                    </div>
+                    <div class="icon"></div>
+                    <div class="weather"></div>
+                </main>
+                <footer>
+                    <div class="date">
+                        <div class="date__day"></div>
+                        <div class="date__dm"></div>
+                    </div>
+                </footer>
+            </div>
+        
+
+            <!-- <div class="theme">
+                <button class="theme-button">Theme</button>
+            </div> -->
+
+        </div>
+
+        
+        
+        <script src="script.js"></script>
+    </body>
+
 </html>
